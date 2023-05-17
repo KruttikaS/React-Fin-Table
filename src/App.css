@@ -58,8 +58,9 @@ thead th {
 }
 
 .dropdown-wrapper {
-  display: grid;
-  justify-content: space-evenly;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .dropdown-container {

@@ -11,8 +11,9 @@ function App() {
     <div>
       <h2 className='heading'>Financial instruments</h2>
       <div className='dropdown-wrapper'>
+        <h4>Sort By</h4>
         <Dropdown
-          placeHolder="Sort By"
+          placeHolder="Select Asset Class"
           options={dropdownOptions}
           onChange={(value) => setSelectedValue(value)}
         />
